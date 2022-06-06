@@ -1,0 +1,34 @@
+header {
+    color: red;
+}
+div {
+    background-color: yellow;
+    border: 1rem;
+    margin: 16px;
+    padding: 10px;
+}
+
+[header = "attribute-value"] {
+    color: pink;
+}
+
+.Important {
+    color: purple;
+
+}
+
+#aqua {
+    color: aqua;
+}
+
+footer {
+    color: black;
+}
+
+.Final[statement]{
+    color:blueviolet;
+}
+
+[global]{
+    color: hotpink;
+}
