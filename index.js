@@ -1,14 +1,6 @@
 $(document).ready(function () {
-  $('#hidden').hover(
-    function () {
-      $(this).css('color', 'black');
-    },
-    function () {
-      $(this).hide();
-    }
-  );
-
-  $('button').click(function () {
-    alert('Alert!');
+  $('button').html('Click me to reveal hidden text!');
+  $('button').on('Click', function (event) {
+    $('hidden').toggleClass('surpriseColor');
   });
 });
