@@ -1,6 +1,12 @@
 $(document).ready(function () {
-  $('button').html('Click Me');
-  $('button').on('click', function (event) {
-    $('#hidden').css('color', 'black');
-  });
-});
+    $("#hidden").hover(function() {
+        $(this.css("color", "black");
+    },
+    function() {
+        $(this).hide();
+    });
+
+    $("button").click(function() {
+        alert("Alert!")
+    })
+    });
