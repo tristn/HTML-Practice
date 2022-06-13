@@ -3,4 +3,10 @@ $(document).ready(function () {
   $('button').on('click', function (event) {
     $('#hidden').toggleClass('surpriseColor');
   });
+  $('p').click(function () {
+    $('p').hide();
+  });
+  $('h1').click(function () {
+    $('h1').css('background-color', 'black');
+  });
 });
