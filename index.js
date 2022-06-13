@@ -6,7 +6,7 @@ $(document).ready(function () {
   $('p').click(function () {
     $('p').hide();
   });
-  $('h1').click(function () {
+  $('h2').click(function () {
     $('h1').css('background-color', 'black');
   });
 });
