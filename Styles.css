@@ -20,11 +20,11 @@ footer {
     color: black;
 }
 
-.Final[statement]{
+.final[statement]{
     color:blueviolet;
 }
 
-[global]{
+#global{
     color: hotpink;
 }
 
